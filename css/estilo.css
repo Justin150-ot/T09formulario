@@ -1,0 +1,81 @@
+.formulario{
+    width: 100%;
+    height: 680px;
+    text-align: center;
+    background-color: #6aeaf5;
+}
+
+input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px green;
+    font-family: arial;
+    font-size: 12px;
+    background-color: #d0ffb9;
+    border: 4px solid blue;
+    transition: width 0.4s ease;
+}
+
+input[type="text"]:focus{
+    width: 70%;
+}
+
+input[type="password"]{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.mapas{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #86f56a;
+    padding: 5px;
+}
+
+.ubicacion{
+    width: 640px;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.tablas{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #ef716a;
+    padding: 5px;
+}
+
+.tabla01{
+    width: 640px;
+    height: auto;
+    background-color: #6aeaf5;
+    padding: 10px;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #2c9ed7; 
+}
+
+table, tr, th, td{
+    border: 1px solid #0e209a;
+    border-collapse: collapse;
+    padding: 10px 30px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: gray;
+    color: white;
+}
